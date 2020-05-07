@@ -1,0 +1,33 @@
+site_name: crtm_poll documentation
+site_url: https://cgupm.github.io/crtm_poll
+
+nav:
+  - Overview: index.md
+  - Reference:
+      - cli.py: reference/cli.md
+      - crtm_api:
+        - stop_times.py: reference/crtm_api/stop_times.md
+      - daemon:
+        - daemon.py: reference/daemon/daemon.md
+
+plugins:
+  - search
+  - autolinks
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+      watch:
+        - ../crtm_poll
+    #  - git-revision-date-localized:
+    #      type: timeago
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
