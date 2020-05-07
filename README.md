@@ -3,6 +3,7 @@
 Python scripts for polling different data from CRTM.
 
 * [docker](https://hub.docker.com/r/cgupm/crtm_poll)
+* [docs](https://cgupm.github.io/crtm_poll/)
 
 ## Features
 

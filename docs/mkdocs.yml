@@ -23,8 +23,8 @@ plugins:
             show_source: true
       watch:
         - ../crtm_poll
-    #  - git-revision-date-localized:
-    #      type: timeago
+  - git-revision-date-localized:
+      type: timeago
 
 theme:
   name: material
