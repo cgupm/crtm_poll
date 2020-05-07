@@ -1,5 +1,7 @@
 site_name: crtm_poll documentation
 site_url: https://cgupm.github.io/crtm_poll
+repo_name: 'cgupm/crtm_poll'
+repo_url: 'https://github.com/cgupm/crtm_poll'
 
 nav:
   - Overview: index.md
