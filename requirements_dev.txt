@@ -2,7 +2,7 @@ aiohttp==3.7.4
 aioresponses==0.7.1
 Click==7.1.2
 filelock==3.0.12
-mkdocs==1.1.2
+mkdocs==1.2.3
 mkdocs-autolinks-plugin==0.4.0
 mkdocs-git-revision-date-localized-plugin==0.8
 mkdocs-material==7.0.4
