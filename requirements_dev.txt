@@ -1,4 +1,4 @@
-aiohttp==3.7.4
+aiohttp==3.8.5
 aioresponses==0.7.1
 Click==7.1.2
 filelock==3.0.12
